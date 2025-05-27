@@ -2,9 +2,11 @@
 SIEM Implementation by integrationg WAZUH &amp; ELK. Monitoring success and failure of login events and creating custom DOS rule to record DOS events
 
 Objective
+
 The objective of this report is to explore the implementation of a SIEM (Security Information and Event Management) system by integrating ELK (Elasticsearch, Logstash, and Kibana) with Wazuh for enhanced security monitoring. The report details the setup of the SIEM environment, the execution of a DoS attack using hping3, and the analysis of security events captured in the Wazuh event dashboard. This project aims to demonstrate the effectiveness of SIEM solutions in detecting and responding to cybersecurity threats in real time.
 
 Introduction
+
 In today's evolving cybersecurity landscape, organizations face constant threats, including Denial-of-Service (DoS) attacks, which can disrupt services and cause significant downtime. SIEM solutions play a crucial role in real-time threat detection, log management, and incident response.
 This report focuses on implementing a SIEM solution using Wazuh integrated with ELK to monitor security events effectively. Wazuh serves as an open-source security platform that collects and analyzes logs, while ELK provides log storage, processing, and visualization. To evaluate the effectiveness of this setup, a DoS attack will be conducted using hping3 on a monitored Windows system, and security logs will be analyzed in Wazuh’s event dashboard to detect the attack.
 
